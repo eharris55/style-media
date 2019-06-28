@@ -1,3 +1,40 @@
 ---
 layout: default
+icons:
+  - icon: /images/globe.jpg
+    name: Web Development
+  - icon: /images/graphic-design.jpg
+    name: Web Development
+  - icon: /images/marketing.jpg
+    name: Web Development
+  - icon: /images/ux-design.jpg
+    name: Web Development
+  - icon: /images/web-dev.jpg
+    name: Web Development
 ---
+<!-- this is the icon section -->
+<section class="grid">
+  {% for item in page.icons %}
+  <div class="col-2_col-12">
+    <img src="{{ item.icon }}">
+      <p>
+        {{ item.name }}
+      </p>
+  </div>
+  {% endfor %}
+</section>
+<!-- this is the icon section -->
+<section>
+
+</section>
+<!-- this is the about us section -->
+<section>
+
+</section>
+<!-- this is the about dope bundles -->
+<section>
+</section>
+<!-- this is the footer section -->
+<footer>
+
+</footer>
