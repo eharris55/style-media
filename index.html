@@ -16,10 +16,34 @@ icons:
 bundles:
   - picture: /images/dev.png
     b-name: i want web
-    b-discription: professional look
-                   influencer management
-                   growth
-
+    b-description-1: • the simple one
+    b-description-2: • getting into details
+    b-description-3: • i want to sell
+  - picture: /images/marketing-gears.png
+    b-name: give me social
+    b-description-1: • professional look
+    b-description-2: • influencer management
+    b-description-3: • growth
+  - picture: /images/branding.png
+    b-name: develop my brand
+    b-description-1: • logo design
+    b-description-2: • slogan development
+    b-description-3: • mission statement
+  - picture: /images/video.png
+    b-name: produce videos
+    b-description-1: • head shots
+    b-description-2: • commercials
+    b-description-3: • podcast space/voiceovers
+  - picture: /images/hands.png
+    b-name: the whole enchilada
+    b-description-1: • web development
+    b-description-2: • branding and social media
+    b-description-3: • videography
+  - picture: /images/choosing.png
+    b-name: build your own burrito
+    b-description-1: • pick and choose which elements you are needing and we will develop a plan based on your budget.
+    b-description-2:
+    b-description-3:
 ---
 <!-- this is the icon section -->
 <section>
@@ -62,20 +86,26 @@ bundles:
 <!-- this is the about us section -->
 <section>
   <div>
-    <h2 class="center">
+    <h2 class="center padded">
       dope bundles
     </h2>
     <div class="grid">
       {% for item in page.bundles %}
-      <div class= "col-3_sm-12">
+      <div class= "col-4_sm-12 center padded">
         <img src="{{ item.picture }}" class="icons">
         <h3>
           {{ item.b-name }}
         </h3>
-        <p>
-          {{ item.b-description }}
-        </p>
-        <a href="#" class="button"> get details </a>
+          <p>
+          {{ item.b-description-1}}
+          </p>
+          <p>
+          {{ item.b-description-2}}
+          </p>
+          <p>
+          {{ item.b-description-3}}
+          </p>
+        <a href="#" class="button "> get details </a>
       </div>
       {% endfor %}
       </div>
