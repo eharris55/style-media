@@ -5,12 +5,21 @@ icons:
     name: graphic design
   - icon: /images/dev.png
     name: web development
-  - icon: /images/ux.png
-    name: ux and ui design
+  - icon: /images/branding.png
+    name: brand development
   - icon: /images/globe.png
     name: marketing
   - icon: /images/marketing-gears.png
     name: social media
+  - icon: /images/video.png
+    name: videography & production
+bundles:
+  - picture: /images/dev.png
+    b-name: i want web
+    b-discription: professional look
+                   influencer management
+                   growth
+
 ---
 <!-- this is the icon section -->
 <section>
@@ -21,7 +30,7 @@ icons:
   </div>
   <div class="grid padded">
     {% for item in page.icons %}
-    <div class="col-4_sm-12 center no-padding">
+    <div class="col-4_sm-12 center no-padding padding-b">
       <img src="{{ item.icon }}" class="icons">
         <p>
           {{ item.name }}
@@ -32,10 +41,10 @@ icons:
 </section>
 <!-- this is the about us section -->
 <section class="grid">
-    <div class="col-6 sm_12 ">
+    <div class="col-6_sm-12 padded-1">
       <img src="/images/old-mac.png" class="old-mac-pic">
     </div>
-    <div class="col-6 sm_12 bg-feat ">
+    <div class="col-6_sm-12 bg-feat about padded">
       <h3>
         about us
       </h3>
@@ -43,19 +52,34 @@ icons:
         who we are
       </h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Styles Media is your one stop shop for all things digital marketing. Our digital marketing expertise lead to massive brand exposure that are
+      translated into sales. By staying up-to-date on the latest trends and
+      methods of marketing, we can produce positive results for any company. We offer a variety of services customized to meet your specific needs.
       </p>
-      <h4>
-        what we do
-      </h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
+      <a href="#" class="button"> get to know us </a>
     </div>
 </section>
 <!-- this is the about us section -->
 <section>
-
+  <div>
+    <h2 class="center">
+      dope bundles
+    </h2>
+    <div class="grid">
+      {% for item in page.bundles %}
+      <div class= "col-3_sm-12">
+        <img src="{{ item.picture }}" class="icons">
+        <h3>
+          {{ item.b-name }}
+        </h3>
+        <p>
+          {{ item.b-description }}
+        </p>
+        <a href="#" class="button"> get details </a>
+      </div>
+      {% endfor %}
+      </div>
+    </div>
 </section>
 <!-- this is the about dope bundles -->
 <section>
