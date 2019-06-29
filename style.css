@@ -26,7 +26,11 @@
 .bg-dark { background-color: rgb(60,60,65);
           color: white;}
 .bg-white{ background-color:#fff;}
-.bg-feat{ background-color: #F9F9FA;}
+.bg-feat{ background-color: #0E0E0F;}
+
+.inline-b{
+  display: inline-block;
+}
 
 /* ---- Button ---- */
 .button {
@@ -47,7 +51,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #666666;
+  color: black;
   font-size: 1.2rem;
 }
 
@@ -56,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.2;
   letter-spacing: -0.03em;
   margin-bottom: 1rem;
-  color: #1d264f;
+  color: black;
 }
 
 h1 {  font-size: 2.5rem; }
@@ -73,7 +77,13 @@ h6 {  font-size: 1.7rem; }
   background-position: bottom;
 }
 
-.icon{
-  width: 30%;
-  display: inline-block;
+.icons{
+  width: 35%;
+}
+.logo{
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+}
+.old-mac-pic{
 }

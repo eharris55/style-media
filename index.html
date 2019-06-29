@@ -1,31 +1,57 @@
 ---
 layout: default
 icons:
-  - icon: /images/globe.jpg
-    name: Web Development
-  - icon: /images/graphic-design.jpg
-    name: Web Development
-  - icon: /images/marketing.jpg
-    name: Web Development
-  - icon: /images/ux-design.jpg
-    name: Web Development
-  - icon: /images/web-dev.jpg
-    name: Web Development
+  - icon: /images/design.png
+    name: graphic design
+  - icon: /images/dev.png
+    name: web development
+  - icon: /images/ux.png
+    name: ux and ui design
+  - icon: /images/globe.png
+    name: marketing
+  - icon: /images/marketing-gears.png
+    name: social media
 ---
 <!-- this is the icon section -->
-<section class="grid">
-  {% for item in page.icons %}
-  <div class="col-2_col-12">
-    <img src="{{ item.icon }}">
-      <p>
-        {{ item.name }}
-      </p>
-  </div>
-  {% endfor %}
-</section>
-<!-- this is the icon section -->
 <section>
-
+  <div>
+    <h2 class=" center">
+      services we offer
+    </h2>
+  </div>
+  <div class="grid padded">
+    {% for item in page.icons %}
+    <div class="col-4_sm-12 center no-padding">
+      <img src="{{ item.icon }}" class="icons">
+        <p>
+          {{ item.name }}
+        </p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- this is the about us section -->
+<section class="grid">
+    <div class="col-6 sm_12 ">
+      <img src="/images/old-mac.png" class="old-mac-pic">
+    </div>
+    <div class="col-6 sm_12 bg-feat ">
+      <h3>
+        about us
+      </h3>
+      <h4>
+        who we are
+      </h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <h4>
+        what we do
+      </h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
 </section>
 <!-- this is the about us section -->
 <section>
