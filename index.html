@@ -19,6 +19,7 @@ bundles:
     b-description-1: • the simple one
     b-description-2: • getting into details
     b-description-3: • i want to sell
+
   - picture: /images/marketing-gears.png
     b-name: give me social
     b-description-1: • professional look
@@ -65,10 +66,10 @@ bundles:
 </section>
 <!-- this is the about us section -->
 <section class="grid">
-    <div class="col-6_sm-12 padded-1">
+    <div class="col-5_sm-12">
       <img src="/images/old-mac.png" class="old-mac-pic">
     </div>
-    <div class="col-6_sm-12 bg-feat about padded">
+    <div class="col-7_sm-12 bg-feat about padded">
       <h3>
         about us
       </h3>
@@ -84,28 +85,30 @@ bundles:
     </div>
 </section>
 <!-- this is the about us section -->
-<section>
+<section class="padded icon-boxes">
   <div>
-    <h2 class="center padded">
+    <h2 class="center dope-bundles">
       dope bundles
     </h2>
-    <div class="grid">
+    <div class="grid-center">
       {% for item in page.bundles %}
-      <div class= "col-4_sm-12 center padded">
+      <div class= "col-3_sm-12 center bg-light icon-box padded-2">
         <img src="{{ item.picture }}" class="icons">
-        <h3>
-          {{ item.b-name }}
-        </h3>
-          <p>
-          {{ item.b-description-1}}
-          </p>
-          <p>
-          {{ item.b-description-2}}
-          </p>
-          <p>
-          {{ item.b-description-3}}
-          </p>
-        <a href="#" class="button "> get details </a>
+          <h3>
+            {{ item.b-name }}
+          </h3>
+          <div class="center bullets">
+            <p>
+            {{ item.b-description-1}}
+            </p>
+            <p>
+            {{ item.b-description-2}}
+            </p>
+            <p class="button-space">
+            {{ item.b-description-3}}
+            </p>
+        </div>
+        <a href="#" class="icon-button"> get details </a>
       </div>
       {% endfor %}
       </div>
