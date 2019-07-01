@@ -5,10 +5,21 @@
   {% include head.html %}
 	</head>
 	<body>
+    <nav class="grid">
+      <div class=" col-2">
+      </div>
+      <div class="col-8 top-nav">
+        <a href="/index"> home <a>
+        <a href="/index"> about <a>
+        <a href="/index"> services <a>
+        <a href="/index"> contact <a>
+      </div>
+    </nav>
     <!-- this is the image banner with logo -->
     {% include site-header.html %}
 
     {{ content }}
-    
+
+    {% include site-footer.html %}
 	</body>
 </html>

@@ -86,10 +86,27 @@ h6 {  font-size: 1.7rem; }
   top: 5rem;
   right: 5rem;
 }
+/* top nav design elements */
+.top-nav{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0E0E0F;
+  padding-top: 3rem;
+}
+.top-nav a{
+  text-decoration: none;
+  color:inherit;
+  padding-left: 2rem;
+}
+.top-nav a:hover{
+  text-decoration: none;
+  color:#E4E5E9;
+  padding-left: 2rem;
+}
 /* about page text designs */
 .old-mac-pic{
-  max-height: 20%;
   padding-top:2rem;
+
 }
 .about h3{
   font-size: 2rem;
@@ -141,4 +158,55 @@ h6 {  font-size: 1.7rem; }
 }
 .dope-bundles{
   padding-bottom: 3rem;
+}
+.film{
+  background-image: url('/images/film.jpg');
+  background-position: center;
+  background-size: cover;
+  padding:none;
+}
+.box{
+  padding-top: 2rem;
+}
+.contact-box h3{
+  color:#0E0E0F;
+}
+
+.contact-box h2{
+  color:#0E0E0F;
+}
+.contact-box p{
+  color:#0E0E0F;
+  padding-bottom: 2rem;
+}
+.mini-font{
+  font-size: .5rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.super-star{
+  text-decoration: none;
+  color:inherit;
+}
+.super-star:hover{
+  text-decoration: none;
+  color:rgb(150,150,150);
+}
+.box p{
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-bottom: 1rem;
+}
+.icon-small{
+  width:1.5rem;
+  padding-top: 1rem;
+}
+.footer-txt{
+  font-size: .8rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.footer{
+  color: #fff;
+  background-color: #0E0E0F;
 }
