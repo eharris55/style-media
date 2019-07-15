@@ -103,11 +103,19 @@ h6 {  font-size: 1.7rem; }
   color:#E4E5E9;
   padding-left: 2rem;
 }
+.logo-nav{
+  width: 20vh;
+  padding-top: 1rem;
+}
 /* about page text designs */
 .old-mac-pic{
-  padding-top:2rem;
-
+  height: 80vh;
+  min-width: 102.5vh;
+  background-image: url('/images/old-mac.png');
+  background-size: cover;
+  background-position: center;
 }
+
 .about h3{
   font-size: 2rem;
   color: white;
@@ -163,7 +171,8 @@ h6 {  font-size: 1.7rem; }
   background-image: url('/images/film.jpg');
   background-position: center;
   background-size: cover;
-  padding:none;
+  height: 85vh;
+  min-width: 119.5vh;
 }
 .box{
   padding-top: 2rem;
