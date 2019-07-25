@@ -316,3 +316,9 @@ form .button {
     background-position: center;
   }
 }
+
+@media (max-width: 900px){
+.logo{
+  display:none;
+}
+}
