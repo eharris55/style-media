@@ -48,6 +48,19 @@
   background-color:#fff;
   color: #0E0E0F;
 }
+.send-button{
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #0E0E0F;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  color: #0E0E0F;
+  border-radius: 3px;
+}
+.send-button:hover{
+  background-color:#0E0E0F;
+  color: #fff;
+}
 
 /* ---- Typography ---- */
 
@@ -236,7 +249,8 @@ h6 {  font-size: 1.7rem; }
       background-size: cover;
       background-position: center;
       min-height: 30rem;
-      min-width: 75vh;
+      min-width: 85vh;
+      margin-left: 4rem;
 
     }
     .bg-films {
@@ -247,12 +261,17 @@ h6 {  font-size: 1.7rem; }
         min-width: 75vh;
 
       }
+.contact-film{
+   max-height: 70vh;
+   padding: none;
+   margin: none;
+}
 /* --------- Forms  ------------- */
 
 input,
 textarea {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.8rem;
   margin-bottom: 1rem;
   font-size: 1rem;
 }
@@ -260,9 +279,15 @@ textarea {
 input:focus,
 textarea:focus {
     outline: none;
-    border: 2px solid #33669a;
+    border: 2px solid #0E0E0F;
 }
+.message{
+  width:100%;
+  padding-bottom: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
 
+}
 form .button {
   margin:0;
 }
@@ -272,6 +297,11 @@ form .button {
   display: inline-block;
   width:48%;
   margin: 0.5%;
+}
+.film-pic {
+  background-image:url('/images/film.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .news .button {
