@@ -87,7 +87,7 @@ h6 {  font-size: 1.7rem; }
 
 .banner-img{
   background-image: url('/images/tv.jpg');
-  min-height: 90vh;
+  min-height: 70vh;
   background-size: cover;
   background-position: bottom;
 }
