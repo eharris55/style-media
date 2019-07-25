@@ -89,7 +89,7 @@ h6 {  font-size: 1.7rem; }
   background-image: url('/images/tv.jpg');
   min-height: 60vh;
   background-size: cover;
-  background-position: bottom;
+  background-position: 20% 10%;
 }
 .title{
   font-size: 2.7rem;
@@ -105,8 +105,9 @@ h6 {  font-size: 1.7rem; }
 }
 .logo{
   position: absolute;
-  top: 5rem;
-  right: 5rem;
+  max-width: 45%
+  top: .5rem;
+  right: 3rem;
 }
 /* top nav design elements */
 .top-nav{
