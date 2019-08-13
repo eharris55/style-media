@@ -250,9 +250,7 @@ h6 {  font-size: 1.7rem; }
       background-image: url('/images/old-mac.png');
       background-size: cover;
       background-position: center;
-      min-height: 30rem;
-      min-width: 85vh;
-      margin-left: 4rem;
+      min-height: 10rem;
 
     }
     .bg-films {
