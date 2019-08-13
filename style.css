@@ -245,7 +245,10 @@ h6 {  font-size: 1.7rem; }
   color: #fff;
   background-color: #0E0E0F;
 }
-
+.responsive{
+  width: 100%
+  height: auto;
+}
   .bg-image {
       background-image: url('/images/old-mac.png');
       background-size: cover;
