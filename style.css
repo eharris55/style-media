@@ -125,7 +125,8 @@ h6 {  font-size: 1.7rem; }
 .top-nav a:hover{
   text-decoration: none;
   color:#E4E5E9;
-  .arrow { /* this is the arrow button */
+}
+  .arrow {
     font-size: 1.5rem;
     display: inline-block;
     text-align: center;
