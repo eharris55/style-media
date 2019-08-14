@@ -125,7 +125,25 @@ h6 {  font-size: 1.7rem; }
 .top-nav a:hover{
   text-decoration: none;
   color:#E4E5E9;
+  .arrow { /* this is the arrow button */
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5rem;
+    min-width: 2.5rem;
+    border: 1px solid #e67e22;
+    padding: 0.5rem;
+    border-radius: 100%;
+    text-decoration: none;
+    color: #e67e22;
+    margin-top: 0.5rem;
+  }
 
+    .arrow:hover {
+      color: rgb(60, 60, 60);
+      border-color: rgb(60, 60, 60);
+    }
 }
 .logo-nav{
   width: 20vh;
