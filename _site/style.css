@@ -26,7 +26,9 @@
 
 .txt-white { color: #fff;}
 
-.bg-light { background-color: #E4E5E9; }
+.bg-light { background-color: #E4E5E9;
+            min-width: 120vh;
+            min-height: 60vh;}
 .bg-dark { background-color: rgb(60,60,65);
           color: white;}
 .bg-white{ background-color:#fff;}
