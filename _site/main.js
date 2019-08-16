@@ -1,9 +1,16 @@
+
+
 $(document).ready(function(){
 //Add all jQuery in here
+// This is the hamburger menu
+$(".hamburger").click(function(){
 
-$( document ).ready(function() {
- $(".burger-button").click(function(){
-   $(".burger-button").toggleClass("active");
-   $(".burger-menu").toggleClass("active");
- });
+  $(this).toggleClass('active');
+  $(".mobile-menu").fadeToggle();
+
+});
+// end hamburger menu
+
+
+
 });
