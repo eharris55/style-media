@@ -27,7 +27,7 @@
 .txt-white { color: #fff;}
 
 .bg-light { background-color: #E4E5E9;
-            min-width: 160vh;
+            min-width: 150vh;
             min-height: 40vh;}
 .bg-dark { background-color: rgb(60,60,65);
           color: white;}
