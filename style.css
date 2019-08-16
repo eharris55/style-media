@@ -64,7 +64,21 @@
   background-color:#0E0E0F;
   color: #fff;
 }
-
+/* ---- Button ---- */
+.button {
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #0E0E0F;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  color:#0E0E0F;
+  border-radius: 3px;
+  margin: .5rem;
+}
+.button:hover{
+  background-color:#fff;
+  color: #fff;
+}
 /* ---- Typography ---- */
 
 body {
