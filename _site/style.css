@@ -16,6 +16,7 @@
 .center { text-align: center; }
 
 .padded     { padding: 5%;  }
+.padded-small {padding: .5rem }
 .padded-1   { padding: 1rem; }
 .padded-2   { padding: 2rem; }
 .no-padding { padding: 0;   }
