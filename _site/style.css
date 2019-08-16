@@ -64,7 +64,7 @@
     padding: 10%;
   }
   .mobile-menu a {
-    color: white;
+    color: #0E0E0F;
     padding: 1rem;
     display: block;
     text-decoration: none;
@@ -383,6 +383,7 @@ form .button {
     background-size: cover;
     background-position: center;
   }
+  /* end media query */
   /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
@@ -393,3 +394,4 @@ form .button {
     display: block;
   }
 }
+/* end media query */
