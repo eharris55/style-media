@@ -353,10 +353,10 @@ form .button {
 @media(max-width:768px) {
   /* top nav design elements */
 .top-nav{
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #0E0E0F;
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
 .top-nav a{
     text-decoration: none;
