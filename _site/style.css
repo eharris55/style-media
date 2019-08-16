@@ -153,17 +153,17 @@ h6 {  font-size: 1.7rem; }
     font-weight: 300;
     line-height: 1.5rem;
     min-width: 2.5rem;
-    border: 1px solid #fff;
+    border: 1px solid #0E0E0F;
     padding: 0.5rem;
     border-radius: 100%;
     text-decoration: none;
-    color: #fff;
+    color: #0E0E0F;
     margin-top: 0.5rem;
   }
 
     .arrow:hover {
-      color: rgb(60, 60, 60);
-      border-color: rgb(60, 60, 60);
+      color: #fff);
+      border-color: #fff;
     }
 }
 
