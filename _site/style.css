@@ -135,12 +135,12 @@ h6 {  font-size: 1.7rem; }
   font-weight: 600;
   color: #0E0E0F;
   padding-top: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 .top-nav a{
   text-decoration: none;
   color:inherit;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .top-nav a:hover{
   text-decoration: none;
