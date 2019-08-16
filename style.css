@@ -369,5 +369,11 @@ form .button {
     text-decoration: none;
     color:#E4E5E9;
   }
+  .logo{
+    width:3rem;
+    position: absolute;
+    top: .5rem;
+    right: 3rem;
+  }
 
 }
