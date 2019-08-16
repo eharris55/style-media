@@ -386,6 +386,23 @@ form .button {
   /* end media query */
   /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
+  /* top nav design elements */
+.top-nav{
+    font-size: .8rem;
+    font-weight: 800;
+    color: #0E0E0F;
+    padding-top: 2rem;
+  }
+.top-nav a{
+    text-decoration: none;
+    color:inherit;
+    padding-left: 1rem;
+  }
+.top-nav a:hover{
+    text-decoration: none;
+    color:#E4E5E9;
+  }
+
 
   .mob-hide {
     display: none;
