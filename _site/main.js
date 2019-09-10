@@ -1,15 +1,9 @@
-
 $(document).ready(function(){
 //Add all jQuery in here
-// This is the hamburger menu
-$(".hamburger").click(function(){
 
-  $(this).toggleClass('active');
-  $(".mobile-menu").fadeToggle();
-
-});
-// end hamburger menu
-
-
-
+$( document ).ready(function() {
+ $(".burger-button").click(function(){
+   $(".burger-button").toggleClass("active");
+   $(".burger-menu").toggleClass("active");
+ });
 });
